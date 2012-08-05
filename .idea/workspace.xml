@@ -24,11 +24,8 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0698ba29-96e3-499a-ad07-cf6bedbedccd" name="Default" comment="Include android icons">
+    <list default="true" id="0698ba29-96e3-499a-ad07-cf6bedbedccd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/main.xml" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samsung/infrastructure/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/samsung/infrastructure/MainActivity.java" />
     </list>
     <ignored path="Infrastructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -560,7 +557,11 @@
       <created>1344163953361</created>
       <updated>1344163953361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Include android icons">
+      <created>1344167914443</created>
+      <updated>1344167914443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
