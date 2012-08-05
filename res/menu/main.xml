@@ -1,17 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/share"
           android:title="@string/actionbar_item_0"
-          android:showAsAction="ifRoom"
+          android:showAsAction="ifRoom|withText"
           android:icon="@drawable/social_share">
           </item>
     <item android:id="@+id/download"
           android:title="@string/actionbar_item_1"
-          android:showAsAction="ifRoom"
+          android:showAsAction="ifRoom|withText"
           android:icon="@drawable/av_download">
     </item>
     <item android:id="@+id/save"
           android:title="@string/actionbar_item_2"
-          android:showAsAction="ifRoom"
+          android:showAsAction="ifRoom|withText"
           android:icon="@drawable/content_save">
     </item>
 

@@ -7,21 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import com.samsung.infrastructure.R;
 
-/**
- * Created with IntelliJ IDEA.
- * User: root
- * Date: 8/5/12
- * Time: 4:49 PM
- * To change this template use File | Settings | File Templates.
- */
 
 public class FragmentB extends Fragment {
     Button button;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle saved) {
-        return inflater.inflate(R.layout.private, group, false);
+        return inflater.inflate(R.layout.main, group, false);
     }
 
     @Override
