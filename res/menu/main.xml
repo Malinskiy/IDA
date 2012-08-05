@@ -1,6 +1,35 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_settings"
-        android:title="@string/menu_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+    <item android:id="@+id/share"
+          android:title="@string/actionbar_item_0"
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/social_share">
+          </item>
+    <item android:id="@+id/download"
+          android:title="@string/actionbar_item_1"
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/av_download">
+    </item>
+    <item android:id="@+id/save"
+          android:title="@string/actionbar_item_2"
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/content_save">
+    </item>
+
+    <!--<item android:id="@+id/menu_settings"-->
+        <!--android:title="@string/menu_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never" />-->
+    <item
+            android:id="@+id/login"
+            android:title="@string/menu_item_0"
+          ></item>
+    <item
+            android:id="@+id/settings"
+            android:title="@string/menu_item_1"
+            ></item>
+    <item
+            android:id="@+id/exit"
+            android:title="@string/menu_item_2"
+            ></item>
+
 </menu>
