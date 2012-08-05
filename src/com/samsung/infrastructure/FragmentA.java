@@ -14,7 +14,7 @@ public class FragmentA extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle saved) {
-        return inflater.inflate(R.layout.main, group, false);
+        return inflater.inflate(R.layout.public_layout, group, false);
     }
 
     @Override
@@ -24,7 +24,7 @@ public class FragmentA extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "You clicked button in Private group", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "You clicked button in Public group", Toast.LENGTH_LONG).show();
             }
         });
     }

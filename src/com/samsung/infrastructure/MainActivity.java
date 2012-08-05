@@ -40,7 +40,7 @@ public class MainActivity extends SherlockFragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.Theme_Sherlock);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+//        setContentView(R.layout.main);
         actionBar = getSupportActionBar();
         actionBar.setDisplayShowHomeEnabled(false);
         actionBar.setDisplayShowTitleEnabled(false);
@@ -48,8 +48,9 @@ public class MainActivity extends SherlockFragmentActivity {
 
         ActionBar.Tab tab1 = actionBar.newTab();
         ActionBar.Tab tab2 = actionBar.newTab();
-        tab1.setText("Public");
-        tab2.setText("Private");
+
+        tab1.setText("Public segment");
+        tab2.setText("Private segment");
         tab1.setTabListener(new MyTabListener());
         tab2.setTabListener(new MyTabListener());
         actionBar.addTab(tab1);
@@ -61,23 +62,6 @@ public class MainActivity extends SherlockFragmentActivity {
 
         MenuInflater inflater = getSupportMenuInflater();
         inflater.inflate(R.menu.main, menu);
-
-//        menu.add(R.string.actionbar_item_0)
-//                .setIcon(R.drawable.social_share)
-//                    .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-//
-//        menu.add(R.string.actionbar_item_1)
-//                .setIcon(R.drawable.av_download)
-//                    .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-//
-//        menu.add(R.string.actionbar_item_2)
-//                .setIcon(R.drawable.content_save)
-//                    .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-//
-//        menu.add(R.string.menu_item_0);
-//        menu.add(R.string.menu_item_1);
-//        menu.add(R.string.menu_item_2);
-
         return true;
     }
 
