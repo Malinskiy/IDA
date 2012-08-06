@@ -6,7 +6,7 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Make you happy in private"
+            android:text="Make you happy"
             android:id="@+id/button" android:layout_gravity="center" style="@style/Theme.Sherlock"
             android:enabled="true"/>
 </LinearLayout>
