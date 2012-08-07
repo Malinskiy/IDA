@@ -7,9 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import com.actionbarsherlock.app.SherlockFragment;
 
 
-public class FragmentB extends Fragment {
+public class FragmentB extends SherlockFragment {
     Button button;
 
     @Override
