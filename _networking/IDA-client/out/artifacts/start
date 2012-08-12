@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Starting client..."
+java -classpath ../production/IDA-Client:../../lib/kryonet-debug-2.18-all.jar com.samsung.idajavaclient.idaClient
+echo "Finished."

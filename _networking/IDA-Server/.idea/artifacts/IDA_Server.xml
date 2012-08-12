@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="IDA-Server">
+    <output-path>$PROJECT_DIR$/out/artifacts</output-path>
+    <root id="archive" name="IDA-Server.jar">
+      <element id="module-output" name="IDA-Server" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kryonet-debug-2.18-all.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

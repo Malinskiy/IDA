@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Starting server..."
+java -classpath ../production/IDA-Server:../../lib/kryonet-debug-2.18-all.jar com.samsung.idaserver.server
+echo "Finished."

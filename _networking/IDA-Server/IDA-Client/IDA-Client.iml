@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../IDA-client/out/production/IDA-Client" />
+    <output-test url="file://$MODULE_DIR$/../../IDA-client/out/test/IDA-Client" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../IDA-client">
+      <sourceFolder url="file://$MODULE_DIR$/../../IDA-client/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../IDA-client/lib/kryonet-debug-2.18-all.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

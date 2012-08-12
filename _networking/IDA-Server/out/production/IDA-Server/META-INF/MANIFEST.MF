@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: IDA-Server.jar
+Main-Class: com.samsung.idaserver.server
+
