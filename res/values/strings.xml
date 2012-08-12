@@ -10,8 +10,8 @@
     <string name="menu_item_2">Quit</string>
 
     <string name="actionbar_item_0">Share</string>
-    <string name="actionbar_item_1">Save</string>
-    <string name="actionbar_item_2">Load</string>
+    <string name="actionbar_item_1">Load</string>
+    <string name="actionbar_item_2">Save</string>
     <string name="actionbar_item_3">More</string>
 
     <color name="Black">#0000</color>
